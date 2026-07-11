@@ -8,6 +8,13 @@ import React, {
 } from 'react';
 import type { Product } from '../data/products';
 import type { CartAction, CartItem, CartState } from '../types/cart';
+import type {
+  QuantmCartBridge,
+  VoiceflowAddToCartPayload,
+  VoiceflowAddToCartResult,
+} from '../types/voiceflow';
+import { QUANTM_CART_UPDATED_EVENT } from '../types/voiceflow';
+import { addVoiceflowPayloadToCart } from '../integrations/voiceflow/cartBridge';
 import { loadCart, saveCart } from '../utils/cartStorage';
 
 const initialState: CartState = { items: [] };
@@ -106,6 +113,7 @@ interface CartContextValue {
   subtotal: number;
   isEmpty: boolean;
   addItem: (product: Product, quantity?: number) => void;
+  addFromVoiceflow: (payload: VoiceflowAddToCartPayload) => VoiceflowAddToCartResult;
   removeItem: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
   clearCart: () => void;
@@ -130,6 +138,36 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const addItem = useCallback((product: Product, quantity = 1) => {
     dispatch({ type: 'ADD_ITEM', payload: { product, quantity } });
   }, []);
+
+  const addFromVoiceflow = useCallback(
+    (payload: VoiceflowAddToCartPayload): VoiceflowAddToCartResult => {
+      const result = addVoiceflowPayloadToCart(payload, addItem);
+
+      if (result.success) {
+        window.dispatchEvent(
+          new CustomEvent(QUANTM_CART_UPDATED_EVENT, {
+            detail: {
+              source: 'voiceflow',
+              productId: result.productId,
+              quantity: result.quantity,
+            },
+          })
+        );
+      }
+
+      return result;
+    },
+    [addItem]
+  );
+
+  useEffect(() => {
+    const bridge: QuantmCartBridge = { addFromVoiceflow };
+    window.__quantmCartBridge = bridge;
+
+    return () => {
+      delete window.__quantmCartBridge;
+    };
+  }, [addFromVoiceflow]);
 
   const removeItem = useCallback((productId: string) => {
     dispatch({ type: 'REMOVE_ITEM', payload: { productId } });
@@ -164,11 +202,12 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       subtotal,
       isEmpty: state.items.length === 0,
       addItem,
+      addFromVoiceflow,
       removeItem,
       updateQuantity,
       clearCart,
     }),
-    [state.items, itemCount, subtotal, addItem, removeItem, updateQuantity, clearCart]
+    [state.items, itemCount, subtotal, addItem, addFromVoiceflow, removeItem, updateQuantity, clearCart]
   );
 
   return (

@@ -13,6 +13,7 @@ import TermsOfService from './pages/TermsOfService';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import CartPage from './pages/CartPage';
+import VoiceflowChat from './components/VoiceflowChat';
 import { products } from './data/products';
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <VoiceflowChat />
     </div>
   );
 }
