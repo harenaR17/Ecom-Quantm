@@ -7,6 +7,7 @@ export interface Product {
   otherImages: string;
   body: string;
   inventoryQuantity: string;
+  category?: string;
 }
 
 // Parse the product database

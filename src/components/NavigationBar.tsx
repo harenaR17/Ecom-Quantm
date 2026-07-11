@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Search, Menu, User } from 'lucide-react';
+import { useCart } from '../context/CartContext';
 
 const NavigationBar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { itemCount } = useCart();
 
   return (
     <nav className="bg-emerald-900 shadow-sm fixed w-full z-10">
@@ -43,12 +45,18 @@ const NavigationBar: React.FC = () => {
             <button className="p-2 text-emerald-200 hover:text-white">
               <User size={24} />
             </button>
-            <button className="p-2 text-emerald-200 hover:text-white relative">
+            <Link
+              to="/cart"
+              aria-label={`Cart, ${itemCount} items`}
+              className="p-2 text-emerald-200 hover:text-white relative"
+            >
               <ShoppingCart size={24} />
-              {/*<span className="absolute top-0 right-0 bg-emerald-500 text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
-                3
-              </span>*/}
-            </button>
+              {itemCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-emerald-500 text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
+                  {itemCount > 99 ? '99+' : itemCount}
+                </span>
+              )}
+            </Link>
           </div>
         </div>
       </div>

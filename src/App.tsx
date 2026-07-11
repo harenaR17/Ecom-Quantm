@@ -12,6 +12,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import CartPage from './pages/CartPage';
 import { products } from './data/products';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         } />
         <Route path="/all-products" element={<AllProducts />} />
         <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/cart" element={<CartPage />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/refund-policy" element={<RefundPolicy />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
