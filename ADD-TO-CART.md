@@ -100,7 +100,7 @@ Track implementation progress here. Check items off as each phase is completed.
 **ProductPage** — primary add-to-cart entry point:
 
 ```tsx
-<button className="w-full bg-emerald-500 text-white py-3 px-8 rounded-md ...">
+<button className="w-full bg-red-500 text-white py-3 px-8 rounded-md ...">
   <ShoppingCart size={20} />
   <span>Add to Cart</span>
 </button>
@@ -109,7 +109,7 @@ Track implementation progress here. Check items off as each phase is completed.
 **NavigationBar** — cart icon with placeholder badge:
 
 ```tsx
-<button className="p-2 text-emerald-200 hover:text-white relative">
+<button className="p-2 text-red-200 hover:text-white relative">
   <ShoppingCart size={24} />
   {/* badge commented out */}
 </button>
@@ -119,7 +119,7 @@ Track implementation progress here. Check items off as each phase is completed.
 
 - React 18 + TypeScript + Vite
 - `react-router-dom` v6 for routing
-- Tailwind CSS for styling (emerald palette)
+- Tailwind CSS for styling (red palette)
 - `lucide-react` for icons
 - **No** global state library installed (Zustand, Redux, etc.)
 - **No** toast/notification library installed
@@ -313,7 +313,7 @@ else:
    - Props: `value`, `min`, `max`, `onChange`
    - UI: `-` button, number display, `+` button
    - Disable `-` at min, `+` at max
-   - Tailwind: match emerald button styles
+   - Tailwind: match red button styles
 2. Update `src/pages/ProductPage.tsx`:
    - Add `useState` for local quantity (default `1`)
    - Import `useCart` and call `addItem(product, quantity)` on button click
@@ -334,7 +334,7 @@ else:
    - Show badge when `itemCount > 0`:
      ```tsx
      {itemCount > 0 && (
-       <span className="absolute -top-1 -right-1 bg-emerald-500 text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
+       <span className="absolute -top-1 -right-1 bg-red-500 text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
          {itemCount > 99 ? '99+' : itemCount}
        </span>
      )}
@@ -352,7 +352,7 @@ else:
 1. Create `src/components/CartItemRow.tsx` (see [Section 9](#9-cart-page-design))
 2. Create `src/components/CartSummary.tsx`
 3. Create `src/pages/CartPage.tsx`
-4. Style with existing patterns: `pt-24`, `max-w-7xl mx-auto`, emerald palette
+4. Style with existing patterns: `pt-24`, `max-w-7xl mx-auto`, red palette
 
 ---
 
@@ -558,7 +558,7 @@ Simple inline feedback without adding a toast library:
 
 ```tsx
 {addedFeedback && (
-  <p className="mt-2 text-emerald-600 text-sm font-medium">
+  <p className="mt-2 text-red-600 text-sm font-medium">
     Added to cart!
   </p>
 )}

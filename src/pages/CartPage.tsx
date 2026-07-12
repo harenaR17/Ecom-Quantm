@@ -20,14 +20,14 @@ const CartPage: React.FC = () => {
     return (
       <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center py-16">
-          <ShoppingCart size={64} className="mx-auto text-emerald-300 mb-6" />
-          <h1 className="text-3xl font-bold text-emerald-900 mb-4">Your cart is empty</h1>
+          <ShoppingCart size={64} className="mx-auto text-red-300 mb-6" />
+          <h1 className="text-3xl font-bold text-red-900 mb-4">Your cart is empty</h1>
           <p className="text-gray-600 mb-8">
             Browse our products and add items to your cart.
           </p>
           <Link
             to="/all-products"
-            className="inline-block bg-emerald-500 text-white py-3 px-8 rounded-md font-medium hover:bg-emerald-600 transition-colors"
+            className="inline-block bg-red-500 text-white py-3 px-8 rounded-md font-medium hover:bg-red-600 transition-colors"
           >
             Browse Products
           </Link>
@@ -38,7 +38,7 @@ const CartPage: React.FC = () => {
 
   return (
     <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-3xl font-bold text-emerald-900 mb-8">Your Cart</h1>
+      <h1 className="text-3xl font-bold text-red-900 mb-8">Your Cart</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2">
@@ -60,7 +60,7 @@ const CartPage: React.FC = () => {
       <div className="mt-8">
         <Link
           to="/all-products"
-          className="text-emerald-600 hover:text-emerald-700 font-medium transition-colors"
+          className="text-red-600 hover:text-red-700 font-medium transition-colors"
         >
           ← Continue Shopping
         </Link>

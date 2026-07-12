@@ -18,10 +18,10 @@ import { products } from './data/products';
 
 function App() {
   const featuredProductIds = [
-    "9648073015632", // 3D Contoured Sleep Mask
-    "9648121577808", // Silicone Nose Clips
-    "9648108536144", // 15 Pairs Magnetic Nasal Strips
-    "9648092873040", // 3D Sleeping Eye Mask
+    "2", // 3D Contoured Sleep Mask
+    "5", // Silicone Nose Clips
+    "13", // 15 Pairs Magnetic Nasal Strips
+    "17", // 3D Sleeping Eye Mask
     "9643806654800", // Foreverlily - Wireless Neck And Back Massager
     "9643786338640", // Neck Shoulder Stretcher
   ];

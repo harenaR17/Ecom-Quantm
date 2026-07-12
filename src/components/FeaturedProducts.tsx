@@ -9,7 +9,7 @@ interface FeaturedProductsProps {
 const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ products }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h2 className="text-3xl font-bold text-emerald-900 mb-8">Featured Products</h2>
+      <h2 className="text-3xl font-bold text-red-900 mb-8">Featured Products</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
@@ -33,8 +33,8 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = ({ products }) => {
                   {product.title}
                 </h3>
                 <div className="flex justify-between items-center mt-auto">
-                  <p className="text-emerald-600">Stock: {product.inventoryQuantity}</p>
-                  <p className="text-lg font-bold text-emerald-700">€{product.price}</p>
+                  <p className="text-red-600">Stock: {product.inventoryQuantity}</p>
+                  <p className="text-lg font-bold text-red-700">€{product.price}</p>
                 </div>
               </div>
             </div>

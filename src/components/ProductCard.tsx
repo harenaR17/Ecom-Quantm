@@ -22,21 +22,21 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           alt={product.title}
           className="h-[300px] w-full object-cover object-center group-hover:opacity-75 transition-opacity"
         />
-        <button className="absolute top-4 right-4 p-2 rounded-full bg-white shadow-md hover:bg-emerald-50">
-          <Heart size={20} className="text-emerald-600" />
+        <button className="absolute top-4 right-4 p-2 rounded-full bg-white shadow-md hover:bg-red-50">
+          <Heart size={20} className="text-red-600" />
         </button>
       </div>
       <div className="mt-4 flex justify-between">
         <div>
           <h3 className="text-sm text-gray-700">
-            <Link to={`/product/${product.ID}`} className="hover:text-emerald-600">
+            <Link to={`/product/${product.ID}`} className="hover:text-red-600">
               <span aria-hidden="true" className="absolute inset-0"></span>
               {product.title}
             </Link>
           </h3>
-          <p className="mt-1 text-sm text-emerald-600">Stock: {product.inventoryQuantity}</p>
+          <p className="mt-1 text-sm text-red-600">Stock: {product.inventoryQuantity}</p>
         </div>
-        <p className="text-sm font-medium text-emerald-700">${product.price}</p>
+        <p className="text-sm font-medium text-red-700">${product.price}</p>
       </div>
       </div>
     </div>

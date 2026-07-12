@@ -13,123 +13,203 @@ export interface Product {
 // Parse the product database
 export const products: Product[] = [
   {
-    "ID": "9648108536144",
-    "body": "<div class=\"product-description\">\n<h2>Magnetic Nasal Strips for Better Breathing</h2>\n<p>Experience relief from nasal congestion and improve airflow with our 15 pairs of Magnetic Nasal Strips. These strips use the power of magnets to gently open your nasal passages, allowing for easier breathing and reducing discomfort. Whether you're looking to enhance your sleep quality, reduce snoring, or breathe more easily during physical activities, these strips are a great solution. With 15 pairs included, you'll enjoy long-lasting, effective relief.</p>\n<h3>Specifications</h3>\n<ul>\n<li>\n<strong>Work Mode:</strong> AUTO</li>\n<li>\n<strong>Item Type:</strong> Sleep &amp; Snoring</li>\n<li>\n<strong>High-concerned Chemicals:</strong> None</li>\n<li>\n<strong>Type:</strong> Anti-Snore Nose Clip</li>\n<li>\n<strong>Number of Pieces:</strong> 15 pairs</li>\n<li>\n<strong>Origin:</strong> Mainland China</li>\n<li>\n<strong>Available Choices:</strong> Yes</li>\n</ul>\n<h3>What's Included:</h3>\n<ul>\n<li>15 pairs of intake tabs</li>\n<li>1 Magnetic Applicator for perfect tab placement</li>\n<li>4 Intake bands in various sizes + free resizing option</li>\n</ul>\n<h3>Product Features and Benefits</h3>\n<ul>\n<li>\n<strong>Improve Breathing:</strong> Nasal breathing dilators help open up the nasal passages, improving ventilation and relieving dry mouth and sore throat symptoms.</li>\n<li>\n<strong>Reduce Snoring:</strong> By dilating the nasal cavity, these strips help reduce snoring, improving sleep quality for both you and those around you.</li>\n<li>\n<strong>Boost Athletic Performance:</strong> Nasal dilators increase oxygen intake during exercise, enhancing endurance and overall performance.</li>\n<li>\n<strong>Reduce Allergy Symptoms:</strong> These strips help keep the nasal passages clear, reducing the entry of allergens and easing allergy-related discomfort.</li>\n<li>\n<strong>Comfortable &amp; Portable:</strong> Made from soft materials, the nasal strips are designed for a comfortable fit, easy to use, and perfect for on-the-go breathing training.</li>\n</ul>\n<h3>How to Use</h3>\n<ol>\n<li>Wash your hands thoroughly before handling the nasal breathing dilator to ensure cleanliness.</li>\n<li>Carefully insert the nasal dilator into your nostrils, selecting the appropriate size based on your nasal cavity.</li>\n<li>Adjust the dilator for a snug fit without forcing it, ensuring it stays securely in place.</li>\n<li>Slowly inhale and exhale, experiencing clear and unobstructed airflow.</li>\n<li>Use the dilators regularly to improve your nasal breathing and ventilation capacity.</li>\n<li>After use, remove the dilator, clean, dry it thoroughly, and store it in the provided box to maintain hygiene and prevent bacterial growth.</li>\n</ol>\n<h3>Specifications</h3>\n<ul>\n<li>\n<strong>Color Options:</strong> Black, White</li>\n<li>\n<strong>Box Size:</strong> 18.7 x 8.8 x 1.8 cm</li>\n<li>\n<strong>Weight:</strong> 53g</li>\n</ul>\n<h3>Important Notes</h3>\n<ul>\n<li>Ensure the nasal dilator is properly fitted for comfort and effectiveness.</li>\n<li>Color may vary slightly due to monitor settings, but we guarantee the style will match the pictures shown.</li>\n</ul>\n</div>",
-    "price": 22.99,
-    "title": "15 Pairs Magnetic Nasal Strips",
+    "ID": "2",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Поредица: Художествена литература [/series/49/]</li>\n<li>Страници: 368</li>\n<li>Дата на издаване: 26.05.2026</li>\n<li>ISBN: 9786192742980</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.35 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Български автори [/category/213] , Художествена литература\n[/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 9.6,
+    "title": "Глина – мека корица, второ издание",
     "category": "FOR SLEEP",
-    "mainImage": "https://ucarecdn.com/f0f1560c-b97e-4898-af96-ee5048917ede/15PairsMagneticNasalStripsmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/c2748d48-94b8-42c3-857e-4b9ca9ee2562/15 Pairs Magnetic Nasal Strips-Sa2681c7d66a24454a95290ac47744124w1731959193.jpeg\"},{\"Image\":\"https://ucarecdn.com/dd07b253-898d-43db-b0b3-f5ca26fbd268/15 Pairs Magnetic Nasal Strips-S323f61d689f94ca589d42db53b04c78dY1731959190.jpeg\"},{\"Image\":\"https://ucarecdn.com/56cbf58b-ce7e-4f03-b6d0-c32a5ec113d5/15 Pairs Magnetic Nasal Strips-S63882ff45a2e4e19a8faa685bb33504a91731959191.jpeg\"},{\"Image\":\"https://ucarecdn.com/50f75660-ef5a-453b-902e-7e26f4ad37d9/15 Pairs Magnetic Nasal Strips-S076c3a6e72c647bc9566e21c31dcafd4F1731959191.jpeg\"},{\"Image\":\"https://ucarecdn.com/5907e115-a6a3-4ea7-972a-5da6eb27d65e/15 Pairs Magnetic Nasal Strips-Sc4795d79076048629d111582c56b4906j1731959190.jpeg\"}]",
-    "inventoryQuantity": "3568"
-  },
-  {
-    "ID": "9648073015632",
-    "body": "<div class=\"product-description\">\n  <h2>100% Light Blocking Eye Mask</h2>\n  <p><strong>Ultra-Soft Skin-Friendly Material | Breathable Eye Cover for Rest, Travel, Yoga</strong></p>\n  <p>\n    Experience unmatched comfort with our 3D Contoured Sleep Mask, designed for a superior sleep experience. \n    Its unique 3D design provides full coverage while eliminating pressure on the eyes, ensuring a deep and \n    undisturbed rest. Wake up each morning feeling refreshed and rejuvenated.\n  </p>\n\n  <h3>Specifications</h3>\n  <ul>\n    <li>\n<strong>Brand Name:</strong> NoEnName_Null</li>\n    <li>\n<strong>Type:</strong> Eyeshade</li>\n    <li>\n<strong>Origin:</strong> Mainland China</li>\n    <li>\n<strong>High-concerned Chemicals:</strong> None</li>\n    <li>\n<strong>Work Mode:</strong> Eye Cover</li>\n    <li>\n<strong>Item Type:</strong> Sleep &amp; Snoring</li>\n    <li>\n<strong>Choice:</strong> Yes</li>\n  </ul>\n\n  <h3>Features</h3>\n  <ul>\n    <li>3D contoured design offers a comfortable and snug fit for all face shapes.</li>\n    <li>Breathable material ensures excellent air circulation and prevents stuffiness.</li>\n    <li>Blocks out light effectively, providing optimal eye protection for a restful sleep.</li>\n    <li>Unisex design, suitable for both men and women.</li>\n    <li>Perfect for summer use and helps relieve eye fatigue.</li>\n  </ul>\n</div>\n",
-    "price": 7.99,
-    "title": "3D Contoured Sleep Mask",
-    "category": "FOR SLEEP",
-    "mainImage": "https://ucarecdn.com/f1d796a5-97d4-412b-94df-c25b7515517d/3DContouredSleepMaskmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/8d8e8387-d14e-4877-ae21-3c9d1375d3d4/3D Contoured Sleep Mask-Sd06887b98fb0473eb888282b0677ad0791731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/4843328e-9a60-4fb0-8d71-f84617bd3b9e/3D Contoured Sleep Mask-S6d16970392ed43bc90cb1f7e4dff875d91731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/bb6b0d69-e630-430b-b6d6-b0c7272985ac/3D Contoured Sleep Mask-S68d82505c6764e4c94deb3cee5143ce3X1731957069.jpeg\"},{\"Image\":\"https://ucarecdn.com/df636879-d15a-4cc9-bf74-b1f7013a5d3e/3D Contoured Sleep Mask-Sc0de7f3cece64311b91e1bc65aac098cI1731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/086446c6-3ab0-4bc3-abdd-ad2167639db7/3D Contoured Sleep Mask-S1508b8e6be9843ae8520a7983926736161731957069.jpeg\"},{\"Image\":\"https://ucarecdn.com/31ec9899-646b-4a0c-ae38-7cda474fc012/3D Contoured Sleep Mask-S47d839da2da141c3b465ebcc67ed32fao1731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/7eaf78eb-8d0b-4ed0-ab3b-1b5b9b50759e/3D Contoured Sleep Mask-Sfac33d9a32014659b43290e2f06bcec5f1731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/a8e1aad4-0ec8-4136-853e-d2177a1ee610/3D Contoured Sleep Mask-Se5a7ba527bb54df993d4de818778d551V1731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/988c3fc0-9cd2-478e-9eb8-f900a432ac4a/3D Contoured Sleep Mask-Se6efca2abe1b47019f24348d962f270fG1731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/e66b003b-6b23-4d3d-8988-7a78c71f9562/3D Contoured Sleep Mask-S55bf4d1e6e844ca98b6bb1cef961e5aeq1731957068.jpeg\"},{\"Image\":\"https://ucarecdn.com/d3de2e7d-aa4b-4bfe-977e-20b077ab8f01/3D Contoured Sleep Mask-S626962760a3f4906a6c5fdff0f8db67eB1731957070.jpeg\"},{\"Image\":\"https://ucarecdn.com/67d2ac60-07c4-461d-bd5c-79081d7901be/3D Contoured Sleep Mask-S6d297a34e17a441b962c951abed5aeac61731957069.jpeg\"}]",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1447/thumbs/Glina_cov_316x.jpg",
+    "otherImages": "",
     "inventoryQuantity": "993"
   },
   {
-    "ID": "9648092873040",
-    "body": "<div class=\"product-description\">\n<h2>3D Sleeping Eye Mask</h2>\n<p><strong>Travel Rest Aid Eye Cover Patch | Padded Soft Sleeping Mask | Blindfold Eye Relax Massager</strong></p>\n<p>Experience deep and restful sleep with our 3D Sleeping Eye Mask. The ergonomic 3D design and soft materials provide optimal comfort while effectively blocking out light for a better night's rest. Wake up refreshed and rejuvenated with the ultimate sleep aid.</p>\n<h3>Specifications</h3>\n<ul>\n<li>\n<strong>Type:</strong> Eyeshade</li>\n<li>\n<strong>Origin:</strong> Mainland China</li>\n<li>\n<strong>High-concerned Chemicals:</strong> None</li>\n<li>\n<strong>Work Mode:</strong> Eye Cover</li>\n<li>\n<strong>Material:</strong> Polyester + Sponge</li>\n<li>\n<strong>Eyeshade Type:</strong> 3D Eyeshade</li>\n<li>\n<strong>Weight:</strong> 20g</li>\n<li>\n<strong>Size:</strong> Approx. 23.5cm x 9cm (9.3'' x 3.54'')</li>\n<li>\n<strong>Color:</strong> 4 Choices Available</li>\n</ul>\n<h3>Features</h3>\n<ul>\n<li>Ergonomic 3D design allows free eye movement and eliminates pressure.</li>\n<li>Soft, breathable materials ensure a comfortable and light-blocking fit.</li>\n<li>Special nose design effectively keeps more light out for undisturbed sleep.</li>\n<li>Lightweight and portable, perfect for travel, rest, or relaxation.</li>\n<li>Unisex design, suitable for both men and women.</li>\n</ul>\n<h3>Package Includes</h3>\n<ul>\n<li>1 x 3D Travel Sleep Rest Eye Mask</li>\n</ul>\n<h3>Care Instructions</h3>\n<p>Please note this product is <strong>not machine washable</strong>. Hand wash gently to maintain quality.</p>\n<h3>Important Note</h3>\n<p>Due to monitor differences, the color of the item may slightly vary from the images shown. We guarantee the style matches the pictures. Thank you for your understanding!</p>\n</div>",
-    "price": 8.99,
-    "title": "3D Sleeping Eye Mask",
+    "ID": "3",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Страници: 8</li>\n<li>Цветни страници</li>\n<li>Дата на издаване: 10.11.2024</li>\n<li>ISBN: 9786192740498</li>\n<li>Размер: 280x210</li>\n<li>Тегло: 0.225 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: За най-малките [/category/120] , Коледни книги [/category/225]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 7.82,
+    "title": "Коледа по света",
     "category": "FOR SLEEP",
-    "mainImage": "https://ucarecdn.com/f853ca8f-35db-4b81-88d7-0d481d1c54cd/3DSleepingEyeMaskmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/dd034f67-86f8-4780-903f-8f4c82b0947d/3D Sleeping Eye Mask-Sb0484768e46f47a79227fb96728af34av1731958384.jpeg\"},{\"Image\":\"https://ucarecdn.com/d5110cd3-19fe-4d8c-9890-47e28463f24e/3D Sleeping Eye Mask-Sa13690ca0c76407c94ba282f2adc9e81j1731958384.jpeg\"},{\"Image\":\"https://ucarecdn.com/15f9254a-5943-4b05-958d-588341172d5d/3D Sleeping Eye Mask-Scdfa016a18654455bafa39b31c40d3e821731958385.jpeg\"},{\"Image\":\"https://ucarecdn.com/595612b3-6cd1-49e9-8698-fce9f1d75b97/3D Sleeping Eye Mask-Sbad987ea618144a9aeb3def9de5d7a4c91731958385.jpeg\"},{\"Image\":\"https://ucarecdn.com/ffd0e6bd-138c-4e17-a6dc-f4b2afcda262/3D Sleeping Eye Mask-Sdb8f97640bf741ba8f6087982b449c08h1731958384.jpeg\"},{\"Image\":\"https://ucarecdn.com/ef7c9e89-397e-40a4-92b0-0f9e5e4482e8/3D Sleeping Eye Mask-S1cbdf7dafb3a4dc4a811ac827a09ac0er1731958385.jpeg\"},{\"Image\":\"https://ucarecdn.com/a405da9a-b8b8-49a5-a811-f3d4d1e73001/3D Sleeping Eye Mask-S9e3e80693ddb48a795816757f5d7b562o1731958386.jpeg\"},{\"Image\":\"https://ucarecdn.com/85bbc2ed-4562-414b-8c0e-0d0f862a6dc5/3D Sleeping Eye Mask-S2238c8726a3a423eb3b95ed8e5d7fc08x1731958385.jpeg\"}]",
-    "inventoryQuantity": "658"
+    "mainImage": "https://www.soft-press.com/uploads/products/book1898/thumbs/Christmas-All-Around-the-World_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
   },
   {
-    "ID": "9648102572368",
-    "body": "<div class=\"product-description\">\n<h2>Professional Foot Massager</h2>\n<p><strong>Massage Roller | Yoga Massage Ball | Plantar Fascia Roller | Muscle Relaxation Care</strong></p>\n<p>Relieve tension and improve circulation with our professional-grade Foot Massager. Expertly designed for therapeutic benefits, it targets pressure points, increases blood flow, and provides a soothing massage experience. Relax, rejuvenate, and care for your feet with ease.</p>\n<h3>Specifications</h3>\n<ul>\n<li>\n<strong>Brand Name:</strong> Dawndesslo</li>\n<li>\n<strong>High-concerned Chemicals:</strong> None</li>\n<li>\n<strong>Origin:</strong> Mainland China</li>\n<li>\n<strong>Item Type:</strong> Massage &amp; Relaxation</li>\n<li>\n<strong>Application:</strong> Foot</li>\n<li>\n<strong>Material:</strong> PVC + TPR</li>\n<li>\n<strong>Size:</strong> Refer to images for detailed dimensions</li>\n<li>\n<strong>Color Options:</strong> Gray, Green, Purple, Pink</li>\n</ul>\n<h3>Features</h3>\n<ul>\n<li>Ergonomic design targets pressure points effectively for tension relief.</li>\n<li>Durable materials ensure long-lasting use and reliable performance.</li>\n<li>Compact and lightweight, perfect for at-home or on-the-go use.</li>\n<li>Versatile for plantar fascia massage, muscle relaxation, and yoga care.</li>\n</ul>\n<h3>Package Includes</h3>\n<ul>\n<li>1 x Foot Roller Massager</li>\n</ul>\n<h3>Important Notes</h3>\n<ul>\n<li>Manual measurements may vary by 1-2 cm. Please confirm dimensions before ordering.</li>\n<li>Due to varying monitor settings, colors may appear slightly different from the images shown.</li>\n</ul>\n</div>",
-    "price": 21.99,
-    "title": "Foot Massager",
-    "category": "FOR FOOT",
-    "mainImage": "https://ucarecdn.com/10a6d67c-5e91-461c-9cf5-5a5434492bd2/FootMassagermainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/7c6ef5d0-099e-4241-afe7-d430d72fd3d0/Foot Massager-Sd5f1acfae934425599a5ffb9fab3c64611731958926.jpeg\"},{\"Image\":\"https://ucarecdn.com/ba379d6c-a8b9-4ece-9290-a8d59867cf68/Foot Massager-S5073e8ef1bac4581ab5b8dbd738d01a2t1731958925.jpeg\"},{\"Image\":\"https://ucarecdn.com/5816318f-16b6-4d82-b20f-73bc3014877b/Foot Massager-Sdc08b495a03e4f22b30285fdd97afe8fS1731958925.jpeg\"},{\"Image\":\"https://ucarecdn.com/5f3d8c82-89fc-4c46-8410-32a2eb9fc07f/Foot Massager-S97b512b21ec040f9bafa72dc02c4b2c7m1731958924.jpeg\"},{\"Image\":\"https://ucarecdn.com/3690df08-e8ec-4d3b-beb0-ffb1129dac24/Foot Massager-S9e588a70b3ab44d88880d68b34eba650M1731958925.jpeg\"},{\"Image\":\"https://ucarecdn.com/19e0b48b-e592-400a-a9ff-246c49bb287c/Foot Massager-S7b6faf6af9964f908e7856e3768c3228x1731958924.jpeg\"},{\"Image\":\"https://ucarecdn.com/aae29da1-bf08-487d-8f22-606d90b6804a/Foot Massager-Sb0155efdc245473bae0a42e568b641a141731958925.jpeg\"}]",
-    "inventoryQuantity": "177"
-  },
-  {
-    "ID": "9643820908880",
-    "body": "<h2>Foot Roller – Essential Relief for Tired and Achy Feet</h2>\n<p>The <strong>Foot Roller</strong> is a powerful solution for anyone seeking relief from foot pain and tension. Expertly crafted to target sore muscles, reduce tension, and promote circulation, this wooden foot massager is ideal for anyone from office workers to athletes. Experience the rejuvenating effects of regular foot rolling with this durable, easy-to-use tool.</p>\n<h3>Key Features:</h3>\n<ul>\n<li>\n<strong>Designed for Foot Health:</strong> Featuring five rows of acupressure nubs, the arched structure of this foot roller mirrors the natural shape of your foot, making it perfect for relieving plantar fasciitis, heel pain, arch discomfort, and neuropathy.</li>\n<li>\n<strong>Improves Circulation:</strong> Promotes better blood flow throughout the feet, which helps reduce fatigue and revitalize tired muscles, all from the comfort of your home.</li>\n<li>\n<strong>Natural, Sustainable Wood:</strong> Made from high-quality, eco-friendly wood, this foot roller is both sturdy and long-lasting, designed to withstand daily use without slipping or tipping, thanks to anti-slip strips on the bottom.</li>\n<li>\n<strong>Perfect for All Users:</strong> Whether you're a computer worker, driver, or in need of daily foot therapy, this roller provides accessible, effective relief for everyone.</li>\n</ul>\n<h3>Specifications:</h3>\n<ul>\n<li>\n<strong>Brand:</strong> JOMMJO</li>\n<li>\n<strong>Material:</strong> Sustainable Wood</li>\n<li>\n<strong>Item Type:</strong> Massage &amp; Relaxation Tool</li>\n<li>\n<strong>Size:</strong> Large</li>\n<li>\n<strong>Application:</strong> Foot Massage and Circulation Boost</li>\n<li>\n<strong>Model Number:</strong> A02441</li>\n</ul>\n<h3>Package Includes:</h3>\n<ul>\n<li>1 Wooden Foot Massager Roller</li>\n</ul>\n<h3>How to Use:</h3>\n<ol>\n<li>Sit comfortably and place your feet on top of the roller.</li>\n<li>Roll your feet back and forth, applying gentle pressure to massage and stimulate the soles.</li>\n</ol>\n<p><em>Note:</em> This massager is suitable for a wide range of users, including those with plantar fasciitis, neuropathy, or general foot fatigue. A reflexology chart and user guide are included to help you achieve an effective, relaxing massage at home.</p>\n<p>Restore comfort and mobility with the <strong>Foot Roller</strong> – your ultimate companion for foot health and relaxation.</p>",
-    "price": 15.99,
-    "title": "Foot Roller",
-    "category": "FOR FOOT",
-    "mainImage": "https://ucarecdn.com/436107cf-ff92-47b0-b069-69d62fed885b/FootRollermainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/952c1aea-d958-4d3c-b4cf-1c1f0d97794a/Foot Roller-S86ca2eee1a0a4e76966344629a72d3b4r1731527781.jpeg\"},{\"Image\":\"https://ucarecdn.com/32d089e7-eaac-4072-8a5c-247ca38ffc98/Foot Roller-Sbe80f90f3aa44a3dae42773e06f60aa8K1731527782.jpeg\"}]",
-    "inventoryQuantity": "1015"
-  },
-  {
-    "ID": "9643806654800",
-    "body": "<h2>Enhance Comfort and Relaxation with the Foreverlily Wireless Neck and Back Massager</h2>\n<p>The <strong>Foreverlily Wireless Neck and Back Massager</strong> is designed to bring professional-level relief to your home or on-the-go. With a focus on targeted neck and shoulder kneading, this massager offers a powerful way to reduce muscle tension, improve circulation, and ease stress. Whether you're looking for relief from daily tension or seeking a way to unwind after a long day, this advanced massager has you covered.</p>\n<h3>Key Features:</h3>\n<ul>\n<li>\n<strong>Wireless Design for Maximum Convenience</strong><br>Enjoy a truly unrestricted massage experience with this wireless, rechargeable massager, allowing you to relax anywhere without cables.</li>\n<li>\n<strong>Targeted Neck and Shoulder Kneading</strong><br>Designed specifically for the neck, shoulders, and trapezius muscles, the massager uses six 3D massage heads to mimic real massage techniques like kneading, pinching, and grasping.</li>\n<li>\n<strong>Two Massage Modes and Adjustable Intensity</strong><br>Choose from kneading or soothing modes, each with two levels of intensity to suit your comfort and relaxation needs.</li>\n<li>\n<strong>Heated Compression for Added Relaxation</strong><br>The massager includes a 2-gear heat compress to enhance the massage effect, providing warmth to help relieve tension in tight muscles.</li>\n<li>\n<strong>Hands-Free Usage &amp; Adjustable Strap</strong><br>The massager features a retractable strap and back buckle, allowing you to secure it in place for hands-free operation, making it easy to relax while working or relaxing at home.</li>\n<li>\n<strong>Long-Lasting Battery</strong><br>With a 2000mAh battery, the massager charges in 3 hours and provides 7-8 sessions of 10-minute massages per charge, ensuring reliable performance whenever you need it.</li>\n<li>\n<strong>Full-Body Usability</strong><br>In addition to neck and shoulders, the Foreverlily Massager is versatile enough to target other areas, including legs, waist, and hands.</li>\n</ul>\n<h3>Specifications:</h3>\n<ul>\n<li>\n<strong>Material:</strong> PU Leather</li>\n<li>\n<strong>Timing:</strong> 10-minute auto shut-off</li>\n<li>\n<strong>Rated Voltage:</strong> 5V</li>\n<li>\n<strong>Power:</strong> 26W</li>\n<li>\n<strong>Battery Capacity:</strong> 2000mAh</li>\n<li>\n<strong>Charging Time:</strong> 3 hours</li>\n<li>\n<strong>Usage:</strong> 7-8 sessions per charge</li>\n<li>\n<strong>Certifications:</strong> CE, KC</li>\n</ul>\n<h3>Package Includes:</h3>\n<ul>\n<li>1 x Foreverlily Neck and Back Massager</li>\n<li>1 x USB Charging Cable</li>\n<li>1 x User Manual</li>\n<li>1 x Retail Box</li>\n</ul>\n<p>Experience the luxury of a professional massage with the <strong>Foreverlily Wireless Neck and Back Massager</strong>. With advanced kneading technology, targeted heat, and a hands-free design, it's the perfect companion for anyone looking to reduce tension, improve circulation, and enjoy true relaxation at home or on the go.</p>",
-    "price": 109.99,
-    "title": "Foreverlily - Wireless Neck And Back Massager",
-    "category": "FOR THE NECK",
-    "mainImage": "https://ucarecdn.com/0985ba91-99e3-4b63-8a11-aaa94f4d947d/ForeverlilyWirelessNeckAndBackMassagermainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/387b25a1-3d5f-4539-aea4-0ea98f2aaf3c/Foreverlily - Wireless Neck And Back Massager-S28b0a4e695954819aa0967725d12c823s1731526469.jpeg\"},{\"Image\":\"https://ucarecdn.com/340be9fa-8bf0-4eb8-96c0-6033ae37feae/Foreverlily - Wireless Neck And Back Massager-S23ff107a5d964774a760234840848726e1731526470.jpeg\"},{\"Image\":\"https://ucarecdn.com/68fe544a-6c77-4611-a575-7d6e8cbad738/Foreverlily - Wireless Neck And Back Massager-Sf83826f175224db4a493badc9047935cP1731526470.jpeg\"},{\"Image\":\"https://ucarecdn.com/72bde5e6-3468-436f-b61c-6aebfd5d372c/Foreverlily - Wireless Neck And Back Massager-Sdaac3383a9ea4dcab4680368454ec75aY1731526471.jpeg\"},{\"Image\":\"https://ucarecdn.com/5b27ac33-a941-4efe-9a8b-35016b7dc695/Foreverlily - Wireless Neck And Back Massager-S47ff8c2517c44eef88d00dea610792e0x1731526469.jpeg\"},{\"Image\":\"https://ucarecdn.com/4477dcc4-0c3b-4d73-ab24-053e4654a23c/Foreverlily - Wireless Neck And Back Massager-S915bf82da40246939b933ecb6217dcc1o1731526470.jpeg\"},{\"Image\":\"https://ucarecdn.com/291a46f1-ec7a-45d9-aae1-914d855b8009/Foreverlily - Wireless Neck And Back Massager-Saa5c49dd7753473fb488fb5069a986e751731526469.jpeg\"},{\"Image\":\"https://ucarecdn.com/b43614c8-3f53-4844-8215-21ebcf4f9762/Foreverlily - Wireless Neck And Back Massager-S19a7cdd79bdd47a79d7f501c0a181624a1731526469.jpeg\"}]",
-    "inventoryQuantity": "633"
-  },
-  {
-    "ID": "9643823530320",
-    "body": "<h2>Massage Ball – Targeted Muscle Relief Anytime, Anywhere</h2>\n<p>The <strong>Massage Ball</strong> is a must-have for anyone seeking effective relief from muscle soreness and tension. Designed to apply pressure precisely where you need it, this compact tool helps alleviate pain and improve circulation, making it ideal for post-workout recovery or daily relaxation. Whether you’re dealing with plantar fasciitis, muscle fatigue, or general tightness, this massage ball is a versatile solution.</p>\n<h3>Key Features:</h3>\n<ul>\n<li>\n<strong>Targeted Pain Relief:</strong> Perfect for reducing tension in the feet, hands, neck, shoulders, and back. Roll the ball over sore or tight areas to release trigger points and promote faster recovery.</li>\n<li>\n<strong>Enhances Circulation:</strong> By applying pressure to sore spots, this ball increases blood flow, aiding muscle relaxation and relieving pain.</li>\n<li>\n<strong>Portable and Easy to Use:</strong> Compact and travel-friendly, it can be used anytime and anywhere – at home, in the office, or at the gym.</li>\n<li>\n<strong>Durable Material:</strong> Made from high-quality rubber, this massage ball is built to last. Its material also provides controlled pressure without scratching or damaging floors.</li>\n</ul>\n<h3>Specifications:</h3>\n<ul>\n<li>\n<strong>Brand Name:</strong> Other</li>\n<li>\n<strong>Material:</strong> Composite Rubber</li>\n<li>\n<strong>Application:</strong> Foot, Neck, Shoulder, and Back Massage</li>\n<li>\n<strong>Available Colors:</strong> Orange, White, Pink, Blue</li>\n<li>\n<strong>Item Quantity:</strong> 1 Piece</li>\n</ul>\n<h3>How to Use:</h3>\n<ol>\n<li>Place the massage ball on a flat surface or hold it in your hand.</li>\n<li>Apply gentle pressure by rolling it over areas with tension or soreness.</li>\n<li>Adjust the pressure to your comfort level and continue for 1-2 minutes on each area.</li>\n</ol>\n<p>Bring relief to your muscles with the <strong>Massage Ball</strong> – the perfect companion for relaxation and muscle care wherever you go.</p>",
-    "price": 9.99,
-    "title": "Massage Ball",
-    "category": "MASSAGE TOOL",
-    "mainImage": "https://ucarecdn.com/8ce423ca-9fbd-4044-b4bf-964a85b23fad/MassageBallmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/dc4f554d-968d-4b6d-9fcd-bea2602ccc93/Massage Ball-Se273c083929e4263878639c0eb6983abq1731528295.jpeg\"},{\"Image\":\"https://ucarecdn.com/f91a304e-db5d-43b2-ad2e-e18dbcb63617/Massage Ball-Sc49bb561a8bf4f1281b53cb8cbbe428921731528294.jpeg\"},{\"Image\":\"https://ucarecdn.com/ae9f39ed-7f7b-4ec1-8138-4a8210e1f963/Massage Ball-S08f51134c02b4467a64f6bf6bfc2b938n1731528295.jpeg\"},{\"Image\":\"https://ucarecdn.com/38a80de6-725c-4f93-8028-1e7f9f5d1729/Massage Ball-Sa9de29952ac142cba9fa7f54f916f426c1731528296.jpeg\"},{\"Image\":\"https://ucarecdn.com/8265b3d8-1863-4c2c-8e07-a5d415177bf3/Massage Ball-S1117aee28713405e8eb39c50e581ca0da1731528294.jpeg\"},{\"Image\":\"https://ucarecdn.com/0308601f-fdda-44f9-a2d5-c7730b73e0a4/Massage Ball-S1426feb84af24f3b809622ac1ffcdc00V1731528294.jpeg\"},{\"Image\":\"https://ucarecdn.com/286da934-9f4e-4d77-9efe-add66ef9f7bb/Massage Ball-S6aacd95c67024f76b9511d3dcd074707q1731528294.jpeg\"},{\"Image\":\"https://ucarecdn.com/a293fdd2-44dd-4d2a-a09d-80e5adec6b52/Massage Ball-S6f6ed228d7e644bcae7c7f9cb093a41f01731528294.jpeg\"},{\"Image\":\"https://ucarecdn.com/c34cec0c-d1e2-4f42-9c27-6ea9ca024682/Massage Ball-S3b8916a80b584f7aaedac1c5ff905788l1731528295.jpeg\"}]",
-    "inventoryQuantity": "345"
-  },
-  {
-    "ID": "9643814093136",
-    "body": "<h2>Massage Feet Socks – Experience Relief with Every Step</h2>\n\n<p>Discover the soothing comfort of <strong>Massage Feet Socks</strong>, designed to provide a targeted massage and relieve tension in tired, achy feet. Combining acupressure therapy with everyday wear, these socks promote circulation and help reduce muscle tension, making each step a step toward relaxation. Perfect for anyone looking to support foot health and find lasting relief throughout the day.</p>\n\n<h3>Key Features:</h3>\n<ul>\n  <li>\n<strong>Acupressure Therapy On-the-Go</strong><br>\n      These socks feature built-in acupressure points that target specific areas of the feet to relieve stress and enhance circulation, perfect for daily wear and self-care.\n  </li>\n  <li>\n<strong>High-Quality Materials</strong><br>\n      Made from a durable cotton and polyester blend, these socks offer both comfort and breathability, ensuring a soft feel while supporting extended use.\n  </li>\n  <li>\n<strong>Customized Fit for Men and Women</strong><br>\n      Available in sizes for both men (34 x 8.5 cm) and women (31.5 x 8.5 cm), ensuring a comfortable fit that maximizes effectiveness.\n  </li>\n  <li>\n<strong>Massage Tools Included</strong><br>\n      Each pair comes with two massage tools (4.33 x 0.47 in and 4.33 x 2.36 x 1.18 in), allowing for enhanced foot massage to relieve deeper tension as needed.\n  </li>\n</ul>\n\n<h3>Specifications:</h3>\n<ul>\n  <li>\n<strong>Brand:</strong> Byfa</li>\n  <li>\n<strong>Material:</strong> Cotton + Polyester</li>\n  <li>\n<strong>Application:</strong> Foot Care &amp; Physiotherapy</li>\n  <li>\n<strong>Power Source:</strong> None (Non-Electric)</li>\n  <li>\n<strong>Package Includes:</strong> 1 Set of Foot Massage Socks</li>\n  <li>\n<strong>Origin:</strong> Mainland China</li>\n</ul>\n\n<h3>Package Includes:</h3>\n<ul>\n  <li>1 Pair of Acupressure Foot Massage Socks</li>\n  <li>2 Massage Tools (for additional targeted relief)</li>\n</ul>\n\n<p><em>Note:</em> Please allow a 0-1 cm margin for manual measurements. Colors may vary slightly due to screen settings. Customer satisfaction is our priority, so please reach out with any concerns for prompt support.</p>\n\n<p>Step into comfort with <strong>Massage Feet Socks</strong> – where every step brings relaxation, improved circulation, and relief from muscle fatigue. Give your feet the care they deserve!</p>",
-    "price": 12.99,
-    "title": "Massage Feet Socks",
-    "category": "FOR FOOT",
-    "mainImage": "https://ucarecdn.com/ad883c6f-bf8c-461c-a972-15159dca8cfa/MassageFeetSocksmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/f0f622f7-6cce-492e-9359-b6bd685db2a6/Massage Feet Socks-Sfbcc9f97a51241e8b72d00ad62ac45c3K1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/7bbd65b8-11e7-4f76-95a4-8c3e0f4a9305/Massage Feet Socks-Sea059f0ecbf44717b2f17167335d20c5x1731527100.jpeg\"},{\"Image\":\"https://ucarecdn.com/1dfa140f-fdb4-48bc-885f-c732c9444038/Massage Feet Socks-S62a75c01097a4e4aac44c2b02d4fddc6n1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/e99a310e-02f5-4026-8477-7fec4ac7aec0/Massage Feet Socks-Sc866cc14b51043bcb87c865e58947238I1731527099.jpeg\"},{\"Image\":\"https://ucarecdn.com/53f093d5-5896-4e7b-bb76-e46cf9d08d86/Massage Feet Socks-S98e173583f004da9a1a90fc6c0967862j1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/1206e0b5-e29a-464d-abc4-dd2722bdf876/Massage Feet Socks-S31a838f37aed4ff1afe1278a2a0118c8U1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/a10353ff-ca81-4a40-9843-72cfc30b6106/Massage Feet Socks-S6e2c2dc3866944668147c96094a07fbdd1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/d10d8761-fdd7-4fa3-9f9e-46c55bd42bc6/Massage Feet Socks-S7f095505aefe40a1b68aff5c22cfedd0l1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/db0cc2d6-ffb7-4021-9dde-63d24d506b0e/Massage Feet Socks-S8ef3bf9b74314a4b99fcd54abd2eca21v1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/952d7a63-8aaa-4507-9e31-ae259d98ca52/Massage Feet Socks-S43f6f9d7d26e4d8fbb5783f71e6ff8e8m1731527098.jpeg\"},{\"Image\":\"https://ucarecdn.com/f107aa28-f7e9-4866-ad58-583b1989f54d/Massage Feet Socks-S5c603e13b8d949a392a919c336f281d0E1731527099.jpeg\"},{\"Image\":\"https://ucarecdn.com/616f9440-a5a1-4241-87e7-4e980e699f60/Massage Feet Socks-S392e8f0fbe4b4c709b7fe7d43381a8c5d1731527099.jpeg\"},{\"Image\":\"https://ucarecdn.com/121fd2ec-d43c-4bd1-8a76-f28b4cb4a116/Massage Feet Socks-Saaf2d7f1e03a4bf0bd36b3b9a2aca5cbI1731527099.jpeg\"},{\"Image\":\"https://ucarecdn.com/a7748d9d-3701-487c-a64a-dff00c23ef0e/Massage Feet Socks-Sdf93febb8c7c47a2a260146d96f6b542k1731527100.jpeg\"}]",
-    "inventoryQuantity": "2455"
-  },
-  {
-    "ID": "9643800559952",
-    "body": "<h2>Mini Muscle Massage Gun – Compact Relief for Muscle Tension &amp; Soreness</h2>\n<p>Introducing the <strong>Mini Muscle Massage Gun</strong>, a portable powerhouse designed to ease muscle tension and promote faster recovery. This compact yet powerful device is ideal for athletes, busy professionals, and anyone seeking relief from muscle pain. With targeted massage options and adjustable intensity levels, enjoy a deep tissue experience wherever you go.</p>\n<h3>Key Features:</h3>\n<ul>\n<li>\n<strong>Compact &amp; Powerful Design</strong><br>Small in size but big on performance, this mini massage gun fits in your bag, ready to deliver relief anytime, anywhere.</li>\n<li>\n<strong>Adjustable Intensity Levels</strong><br>Choose from multiple intensity settings to customize your massage experience, targeting specific muscle groups with precision.</li>\n<li>\n<strong>USB Type-C Rechargeable</strong><br>Equipped with a 1200mAh lithium battery, this massage gun is easily rechargeable with a USB Type-C cable, providing hours of relief on a single charge.</li>\n<li>\n<strong>Full-Body Versatility</strong><br>With 4 interchangeable massage heads, this device adapts to various body parts including the neck, back, legs, and more for a comprehensive massage experience.</li>\n</ul>\n<h3>Specifications:</h3>\n<ul>\n<li>\n<strong>Brand:</strong> MIPHESLY</li>\n<li>\n<strong>Material:</strong> ABS</li>\n<li>\n<strong>Rated Power:</strong> 24W</li>\n<li>\n<strong>Battery Capacity:</strong> 1200mAh Lithium Rechargeable Battery</li>\n<li>\n<strong>Power Supply:</strong> Battery Powered (USB Type-C rechargeable)</li>\n<li>\n<strong>Application:</strong> Whole Body</li>\n<li>\n<strong>Certifications:</strong> RoHS, CE</li>\n<li>\n<strong>Origin:</strong> Mainland China</li>\n</ul>\n<h3>Package Includes:</h3>\n<ul>\n<li>1 x Mini Muscle Massage Gun</li>\n<li>4 x Interchangeable Massage Heads</li>\n<li>1 x English Manual</li>\n<li>1 x USB Type-C Charging Cable</li>\n<li>1 x Retail Packaging Box</li>\n</ul>\n<p>Revolutionize your recovery routine with the <strong>Mini Muscle Massage Gun</strong> – a versatile, on-the-go solution for managing muscle tension and boosting recovery. Get relief whenever and wherever you need it with this easy-to-use, compact massage tool.</p>",
-    "price": 34.99,
-    "title": "Mini Muscle Massage Gun",
-    "category": "MASSAGE TOOL",
-    "mainImage": "https://ucarecdn.com/f788b48b-e291-410c-9996-b8881a651c5c/MiniMuscleMassageGunmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/89413fdc-5a63-466b-9830-142d11d60661/Mini Muscle Massage Gun-S0fe36529b7104269bbadeabce99ef237R1731525897.jpeg\"},{\"Image\":\"https://ucarecdn.com/951d1c9e-994b-4115-b296-276948d1592a/Mini Muscle Massage Gun-Sef26d86dda9446f1ba1bc875c7aee045M1731525897.jpeg\"},{\"Image\":\"https://ucarecdn.com/b1bb6119-d918-495b-b12f-fdcaddf6d08d/Mini Muscle Massage Gun-Sf55d2b2054c94198943b578bf6e5c27fG1731525898.jpeg\"},{\"Image\":\"https://ucarecdn.com/35e4514b-9543-4251-8093-3940e71e3d47/Mini Muscle Massage Gun-S629e482ac5ad418e873967f1311f1c5bP1731525898.jpeg\"},{\"Image\":\"https://ucarecdn.com/36430007-a860-4bc5-b5d8-38840c6870cd/Mini Muscle Massage Gun-S0f62fe3175dc434fb33fc5e6d624658av1731525897.jpeg\"},{\"Image\":\"https://ucarecdn.com/38823835-b59d-41ad-a268-6d022538bbaf/Mini Muscle Massage Gun-S0cdbf3335d634b1bb4e8259717f907f1p1731525897.jpeg\"},{\"Image\":\"https://ucarecdn.com/73559cda-4743-491e-bde6-8d1d606c17ab/Mini Muscle Massage Gun-Sfac64aa54f304ce680b58ca3f75e668aQ1731525897.jpeg\"},{\"Image\":\"https://ucarecdn.com/4e79e2ef-b105-467a-bb17-4677d344bdc6/Mini Muscle Massage Gun-S6c598dd893fd4aecaa00847218bb4f87l1731525898.jpeg\"},{\"Image\":\"https://ucarecdn.com/ae3e8097-eb4d-43f8-9cf9-2ac2e8eb5814/Mini Muscle Massage Gun-S155c45fec5c7492f858e5aed6701503eM1731525897.jpeg\"},{\"Image\":\"https://ucarecdn.com/566cbe01-cf70-47bf-9eab-91d9fac50a0e/Mini Muscle Massage Gun-S625b721eeb214326bbcdb9f7343fc0dfK1731525897.jpeg\"}]",
-    "inventoryQuantity": "4704"
-  },
-  {
-    "ID": "9643786338640",
-    "body": "<p><strong>Relieve Neck and Shoulder Tension with the Ergonomic Neck &amp; Shoulder Stretcher</strong></p>\n<p>Say goodbye to neck pain and stress with the <em>Neck &amp; Shoulder Stretcher</em>, a chiropractic traction device designed to provide targeted relief for cervical spine alignment and muscle relaxation. This ergonomic massager allows for a deep stretch in the neck and shoulder area, promoting proper cervical posture and easing tension caused by long hours of sitting or driving.</p>\n<p><strong>Key Benefits :</strong><br><strong></strong></p>\n<ul>\n<li>\n<strong>Pain Relief &amp; Tension Reduction</strong>  <br>Designed to alleviate neck pain, headaches, and migraines, this stretcher decompresses pressure in the cervical spine, offering a relaxing experience that supports spinal health.</li>\n<li>\n<strong>Ergonomic Cervical Support</strong>  <br>Shaped to match the natural curvature of the neck, it features multiple massage points that release tightness in the neck and lower head muscles. Lie back and let gravity do the work, as the pillow gently stretches your shoulders and upper spine.</li>\n<li>\n<strong>Durable, High-Quality Materials</strong>  <br>Made from high-density PU foam, this device is both durable and comfortable. Its anti-deformation construction ensures long-lasting use while maintaining support over time.</li>\n<li>\n<strong>Simple to Use, Anytime &amp; Anywhere</strong>  <br>Ideal for 8-minute sessions, the device is perfect for home, office, or travel use. Compact and waterproof, it’s easy to clean and portable, making it a convenient solution for those with active lifestyles or frequent travel.</li>\n</ul>\n<p><strong>Specifications </strong>:<br>- <em>Material </em>: PU Polyurethane<br>- <em>Size</em> : 22 x 17.5 x 12.5 cm (8.66 x 6.89 x 4.92 inches)<br>- <em>Application </em>: Neck and shoulder support, cervical spine alignment<br>- <em>Certification </em>: CE Certified</p>\n<p><strong>How to Use :</strong><br>1. <em>Position the Device :</em> Place the support around the middle of your neck while lying or reclining.<br>2. <em>Adjust Comfortably :</em> Start with gentle traction, letting your neck relax as you take deep breaths.<br>3. <em>Gradual Usage :</em> Begin with 5-minute sessions and gradually increase as comfortable.</p>\n<p>Restore alignment, release tension, and support your posture with the <em>Neck &amp; Shoulder Stretcher</em>. Perfect for daily relaxation or a therapeutic routine, it’s an easy-to-use solution for a stress-free neck and spine.</p>",
-    "price": 19.99,
-    "title": "Neck Shoulder Stretcher",
-    "category": "FOR THE NECK",
-    "mainImage": "https://ucarecdn.com/18cc1d8b-552b-44ae-9f09-b671403168fd/NeckShoulderStretchermainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/945758bc-f334-45fb-b95a-4f8b4b951476/Neck Shoulder Stretcher-S2421e713b72b4d7bac9cb5273caec0fb81731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/bb8bde1c-9686-4c6b-94a3-400e2724986b/Neck Shoulder Stretcher-Sced0d41cecf4424c9554a9143a537300l1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/8416a9c1-e193-44c6-b3b4-ee0f07987afb/Neck Shoulder Stretcher-Sbfff890684064d268ea9b13ace446ef6a1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/f6c83818-d658-46e0-83af-c13161ed98a5/Neck Shoulder Stretcher-Sda43a4a5e9064737a5695cd4d064b524N1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/e644ff80-5a93-4a21-a754-96f8b149a165/Neck Shoulder Stretcher-Scd4c9cb9b61f41329be87c41e3f66ef4F1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/2ab70d19-538a-4bc8-8d04-b008318d91a9/Neck Shoulder Stretcher-S50e2d5c3690741e5b984d75af4658ed6F1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/c7e93e73-982d-431c-8c07-845eca204ffc/Neck Shoulder Stretcher-S8109d4b9669d42d5a1ffdb4178f1846cY1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/08613d52-51af-4716-a30c-c3fc11bdd3da/Neck Shoulder Stretcher-S366052939ab0427d81fb2f06fc2341d421731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/761319f6-242a-44cd-911b-dd9f5c6310a5/Neck Shoulder Stretcher-S5efd6cdedeed4fc681aa7545922ea5e8x1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/07eca068-334b-4ecf-9434-9c74893e9cf1/Neck Shoulder Stretcher-Sd03dba6e3e8f470ca637b8a8693b62b0E1731524320.jpeg\"},{\"Image\":\"https://ucarecdn.com/7d12bdb4-ce04-4f9f-9c00-452f8677bfd7/Neck Shoulder Stretcher-S4b1c609b7aab4a9b892c6c3d896f62d0h1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/bd32a347-78a0-4163-9146-10bc90296427/Neck Shoulder Stretcher-S1247c7238b214446ad39f50cf8280a88b1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/ab111ac3-c60e-4274-933f-957d529c8b46/Neck Shoulder Stretcher-S1ebc24e5c52f4c42b5d5d82a186ff3a3M1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/167d4877-e48e-4137-a31f-08f80dba8955/Neck Shoulder Stretcher-Sc00d07da24d5434b9f8c24721e89e5c7q1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/ead4b17b-13ad-45bc-bb5d-2a67e2a69c8f/Neck Shoulder Stretcher-S97b5392e692e443fb8a0333ed782678fv1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/3716dd1e-87ee-46ef-9b70-8f034850391f/Neck Shoulder Stretcher-Sc985ff709c81490e983c05746f842ee1A1731524321.jpeg\"},{\"Image\":\"https://ucarecdn.com/a8c3343b-daa0-4524-8a1a-fab7d96ed167/Neck Shoulder Stretcher-S9df09dd3edf14d5f913f634add37ad0871731524321.jpeg\"}]",
-    "inventoryQuantity": "1052"
-  },
-  {
-    "ID": "9643793121616",
-    "body": "<h2>Experience Comfort and Support with the Adjustable Neck Support for Pain Relief</h2>\n<p>Our <strong>Adjustable Neck Support</strong> is thoughtfully designed to provide optimal support and alignment for your neck, whether during sleep or relaxation. Engineered with an ergonomic shape and crafted from high-quality materials, this neck support is ideal for alleviating neck pain and improving cervical posture. Elevate your comfort and overall well-being with a product built to enhance restful sleep and promote spinal health.</p>\n<h3>Key Features:</h3>\n<ul>\n<li>\n<strong>360° Anti-Forward Tilt Support</strong><br>Designed to counteract forward head tilt, this neck support provides stable yet lightweight comfort to help maintain proper alignment.</li>\n<li>\n<strong>Ergonomic Structural Support</strong><br>Created with ergonomic principles, this neck protector offers mechanical support for the cervical spine, relieving strain and enhancing relaxation.</li>\n<li>\n<strong>Breathable, Comfortable Fabric</strong><br>Made with breathable polyester and sponge materials, this support ensures a comfortable fit without overheating, allowing for extended wear.</li>\n<li>\n<strong>Portable &amp; Convenient</strong><br>Lightweight and easy to carry, the neck support can be rolled up and packed for convenient use on the go, making it perfect for travel.</li>\n</ul>\n<h3>Specifications:</h3>\n<ul>\n<li>\n<strong>Brand:</strong> YOSYO</li>\n<li>\n<strong>Material:</strong> Polyester, Sponge</li>\n<li>\n<strong>Color:</strong> Grey</li>\n<li>\n<strong>Size:</strong> 45 x 8 cm (17.71 x 3.15 inches)</li>\n<li>\n<strong>Application:</strong> Neck support for sleep and relaxation</li>\n<li>\n<strong>Origin:</strong> Mainland China</li>\n</ul>\n<h3>Usage Instructions:</h3>\n<ol>\n<li>\n<strong>Position the Neck Support:</strong> Place the support around your neck, ensuring it wraps snugly for maximum stability.</li>\n<li>\n<strong>Adjust for Comfort:</strong> Align the support to maintain a comfortable position, avoiding any pressure points.</li>\n<li>\n<strong>Wear as Needed:</strong> Use during sleep or relaxation to alleviate neck pain and improve posture.</li>\n</ol>\n<p>Enhance your daily comfort with the <strong>Adjustable Neck Support</strong> – a portable, breathable solution that delivers effective cervical alignment and supports a healthier neck posture, wherever you are.</p>",
-    "price": 12.99,
-    "title": "Neck Support",
-    "category": "FOR THE NECK",
-    "mainImage": "https://ucarecdn.com/8ae92aec-4eb6-415e-9e54-1928146be2a4/NeckSupportmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/0dc67425-08fc-45c5-9817-f49e3c110003/Neck Support-Sd2b72ee53dc84a43b38de9265e41e29bi1731525183.jpeg\"},{\"Image\":\"https://ucarecdn.com/8abf0378-4007-4176-afea-60acb9da2d0f/Neck Support-S23038dc2ebb4478db5e894e5467dae97s1731525183.jpeg\"},{\"Image\":\"https://ucarecdn.com/4ab4b5f5-882a-4ab6-9b5b-8c7edb54e48e/Neck Support-S3d6e0c716b404da395fc65ebb398000ch1731525183.jpeg\"},{\"Image\":\"https://ucarecdn.com/6012aef6-9447-4ef5-a4dc-5bb144ef90fa/Neck Support-Sb51358b7faf34a8692af3178fd45ec1bj1731525183.jpeg\"},{\"Image\":\"https://ucarecdn.com/cbd3350a-6e1a-46c3-9e34-ce07c5b80de7/Neck Support-S259d003213794bceb03af6cf2e6dadc5V1731525183.jpeg\"},{\"Image\":\"https://ucarecdn.com/e50a65f1-1d26-4123-b6b7-13a4c4638bfe/Neck Support-Sc24c066832274e5a960404acc7dfbed9d1731525183.jpeg\"},{\"Image\":\"https://ucarecdn.com/86c5a3ca-9183-47e1-b8fb-52c66b97408c/Neck Support-S21824e2f2a2a44d8add7757e69a5066511731525183.jpeg\"}]",
-    "inventoryQuantity": "112"
-  },
-  {
-    "ID": "9648121577808",
-    "body": "<div class=\"product-description\">\n<h2>Silicone Nose Clips for Improved Sleep</h2>\n<p>These Silicone Nose Clips are designed to provide a comfortable and secure fit, preventing water from entering your nasal passages during swimming or other water activities. Made from high-quality silicone, these clips are durable and reliable, making them a must-have for swimmers and water sports enthusiasts. In addition to their water-blocking functionality, they also help improve breathing, making them beneficial for sleep apnea relief, snoring prevention, and overall sleep improvement. Enjoy your aquatic adventures or sleep better with these versatile nose clips.</p>\n<h3>Specifications</h3>\n<ul>\n<li>\n<strong>Brand Name:</strong> NoEnName_Null</li>\n<li>\n<strong>Type:</strong> Anti-Snore Nose Clip</li>\n<li>\n<strong>Origin:</strong> Mainland China</li>\n<li>\n<strong>High-concerned Chemicals:</strong> None</li>\n<li>\n<strong>Work Mode:</strong> AUTO</li>\n<li>\n<strong>Material:</strong> Silica Gel</li>\n<li>\n<strong>Item Type:</strong> Sleep &amp; Snoring</li>\n<li>\n<strong>Number of Pieces:</strong> One Unit</li>\n<li>\n<strong>Choice:</strong> Yes</li>\n</ul>\n<h3>Features</h3>\n<ul>\n<li>\n<strong>Waterproof:</strong> Prevents water from entering the nasal passages, making it ideal for swimming and water sports.</li>\n<li>\n<strong>Comfortable Fit:</strong> Made from soft, high-quality silicone that ensures a snug, secure fit for all nose shapes.</li>\n<li>\n<strong>Durable &amp; Reliable:</strong> Built to last, these nose clips provide long-lasting performance.</li>\n<li>\n<strong>Multi-Use:</strong> In addition to preventing water intake, these clips help with snoring, sleep apnea, and improving sleep quality.</li>\n</ul>\n<h3>Usage</h3>\n<ul>\n<li>Place the nose clip gently over the nose to prevent water from entering during aquatic activities.</li>\n<li>For sleep improvement, place the clip before bedtime to help reduce snoring and improve breathing while sleeping.</li>\n</ul>\n<h3>Important Notes</h3>\n<ul>\n<li>Ensure a proper fit for maximum comfort and effectiveness.</li>\n<li>Keep the nose clip clean and dry after each use for optimal hygiene.</li>\n</ul>\n</div>",
-    "price": 6.99,
-    "title": "Silicone Nose Clips",
+    "ID": "4",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Поредица: Художествена литература [/series/49/]</li>\n<li>Страници: 368</li>\n<li>Твърди корици</li>\n<li>Дата на издаване: 12.04.2021</li>\n<li>ISBN: 9786191516735</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.45 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Български автори [/category/213] , СОФТПРЕС [/category/232] ,\nХудожествена литература [/category/153] , Чети като за световно!\n[/category/227]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 9.81,
+    "title": "Глина – твърда корица",
     "category": "FOR SLEEP",
-    "mainImage": "https://ucarecdn.com/fedcb29f-996a-45c4-99a2-3afd5b9f9b2d/SiliconeNoseClipsmainImage",
-    "otherImages": "[{\"Image\":\"https://ucarecdn.com/4b28df86-70b8-45cc-8954-53df8c0348d9/Silicone Nose Clips-S72230fda242e4e078fbb563edbec53ffq1731960128.jpeg\"},{\"Image\":\"https://ucarecdn.com/0705949a-a267-4551-9299-ec89c3fcbbd7/Silicone Nose Clips-S6b7b990912554bc2ae4df7f7d4a0749fo1731960127.jpeg\"},{\"Image\":\"https://ucarecdn.com/1c07e9dd-b83c-43f3-9789-4870215ce0b1/Silicone Nose Clips-S7987467bb66c441195c51cf1d187e58eu1731960128.jpeg\"},{\"Image\":\"https://ucarecdn.com/a900edf0-75f5-4ffd-99ab-39479de67d9f/Silicone Nose Clips-S33391ca78f9c4e4cba520a991a1c37edD1731960128.jpeg\"},{\"Image\":\"https://ucarecdn.com/54589236-f618-4f51-a8a7-878d3d33fa0c/Silicone Nose Clips-S333be606572a4759a291e92a05a157beQ1731960129.jpeg\"},{\"Image\":\"https://ucarecdn.com/b4f2c93c-f87b-496e-bb5b-afd39cc20eb0/Silicone Nose Clips-Sffe251d33dc3425798b3ad6114efac6141731960128.jpeg\"},{\"Image\":\"https://ucarecdn.com/8d8d64c8-422a-44e8-88aa-b4d4a4f78014/Silicone Nose Clips-Sb328a52d6f6b47a793dde1c9296b42d2w1731960128.jpeg\"},{\"Image\":\"https://ucarecdn.com/5174df02-ce5f-4348-86f9-22d5d441d2ea/Silicone Nose Clips-S25352940f47c4f55970d90ca1ecbab70z1731960128.jpeg\"}]",
-    "inventoryQuantity": "379"
+    "mainImage": "https://www.soft-press.com/uploads/products/book1476/thumbs/Glina_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "5",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Милена Илиева</li>\n<li>Поредица: Хит трилър [/series/23/]</li>\n<li>Страници: 320</li>\n<li>Дата на издаване: 12.03.2021</li>\n<li>ISBN: 9786191516643</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.3 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Трилъри [/category/207] , Художествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Списъкът",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1468/thumbs/Spisak_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "6",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Страници: 96</li>\n<li>Цветни страници</li>\n<li>Дата на издаване: 11.03.2021</li>\n<li>ISBN: 9786191516629</li>\n<li>Размер: 212x280</li>\n<li>Тегло: 0.55 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Български автори [/category/213] , Приказки и легенди\n[/category/122] , СОФТПРЕС [/category/232]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 9.2,
+    "title": "Приказки за гугулета",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1461/thumbs/Prikazki_za_gugleta_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "7",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Габриела Кожухарова</li>\n<li>Поредица: Художествена литература [/series/49/]</li>\n<li>Страници: 392</li>\n<li>Дата на издаване: 26.02.2021</li>\n<li>ISBN: 9786191516551</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.375 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Исторически романи [/category/229] , Художествена литература\n[/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.74,
+    "title": "Парижката библиотека",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1457/thumbs/Parizhkata_biblioteka_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "8",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Нели Лозанова, Кристина Димитрова</li>\n<li>Поредица: Инспектор Гамаш [/series/41/]</li>\n<li>Страници: 464</li>\n<li>Дата на издаване: 17.12.2020</li>\n<li>ISBN: 9786191516377</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.45 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: 16 + години [/category/164] , 18 + години [/category/165] ,\nКриминални романи [/category/209] , Художествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Час за разплата",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1452/thumbs/Chas_za_razplata_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "9",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Страници: 152</li>\n<li>Цветни страници</li>\n<li>Дата на издаване: 11.12.2020</li>\n<li>ISBN: 9786191516315</li>\n<li>Размер: 165x235</li>\n<li>Тегло: 0.4 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Български автори [/category/213] , Нехудожествена литература\n[/category/200]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Пътешествия за мечтатели",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1450/thumbs/Pyteshestviq_za_mechtateli_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "10",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Марин Загорчев</li>\n<li>Страници: 800</li>\n<li>Твърди корици</li>\n<li>Дата на издаване: 01.12.2020</li>\n<li>ISBN: 9786191516353</li>\n<li>Размер: 153х234</li>\n<li>Тегло: 1 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: 16 + години [/category/164] , 18 + години [/category/165] ,\nБиографии [/category/214] , Нехудожествена литература [/category/200] ,\nПодаръчни книги [/category/148]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 20.25,
+    "title": "Обетована земя",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1448/thumbs/Barak_Obama_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "11",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Любомир Николов</li>\n<li>Художник: Джана Mатиа</li>\n<li>Страници: 64</li>\n<li>Цветни страници</li>\n<li>Твърди корици</li>\n<li>Дата на издаване: 27.10.2020</li>\n<li>ISBN: 9786191516186</li>\n<li>Размер: 170x230</li>\n<li>Тегло: 0.36 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Детски книги [/category/149] , За най-малките [/category/120] ,\nПриказки и легенди [/category/122]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Натали Портман разказва в рими басни",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1436/thumbs/Natali_Portman_basni_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "12",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Богдан Русев</li>\n<li>Поредица: Хит трилър [/series/23/]</li>\n<li>Страници: 280</li>\n<li>Дата на издаване: 05.08.2020</li>\n<li>ISBN: 9786191515677</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.25 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Трилъри [/category/207] , Художествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Осем перфектни убийства",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1411/thumbs/8_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "13",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Художник: Полона Ловшин</li>\n<li>Поредица: Моето семейство [/series/87/]</li>\n<li>Страници: 28</li>\n<li>Цветни страници</li>\n<li>Дата на издаване: 31.07.2020</li>\n<li>ISBN: 9786191515639</li>\n<li>Размер: 215x215</li>\n<li>Тегло: 0.125 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: За най-малките [/category/120]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 2.3,
+    "title": "Татко",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1414/thumbs/Tatko_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "14",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Нели Лозанова, Росица Тодорова</li>\n<li>Поредица: Инспектор Гамаш [/series/41/]</li>\n<li>Страници: 456</li>\n<li>Дата на издаване: 21.05.2020</li>\n<li>ISBN: 9786191515493</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.43 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: 16 + години [/category/164] , 18 + години [/category/165] ,\nКриминални романи [/category/209] , Художествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Природата на звяра",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1395/thumbs/Gamash_11_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "15",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Калина Лазарова</li>\n<li>Поредица: Художествена литература [/series/49/]</li>\n<li>Страници: 360</li>\n<li>Дата на издаване: 10.02.2020</li>\n<li>ISBN: 9786191515233</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.325 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Трилъри [/category/207]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "55",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1382/thumbs/55_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "16",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Нели Лозанова</li>\n<li>Поредица: Инспектор Гамаш [/series/41/]</li>\n<li>Страници: 424</li>\n<li>Дата на издаване: 28.11.2019</li>\n<li>ISBN: 9786191515158</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.4 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: 16 + години [/category/164] , 18 + години [/category/165] ,\nКриминални романи [/category/209] , Художествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 8.28,
+    "title": "Дългият път към дома",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1371/thumbs/Gamash_10_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "17",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Художник: Гергана Грънчарова</li>\n<li>Поредица: Художествена литература [/series/49/]</li>\n<li>Страници: 232</li>\n<li>Дата на издаване: 23.11.2019</li>\n<li>ISBN: 9786191515134</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.2 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Български автори [/category/213] , Коледни книги [/category/225] ,\nПриказки и легенди [/category/122] , СОФТПРЕС [/category/232] , Художествена\nлитература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 6.9,
+    "title": "Приключение в Долната земя. Коледари срещу хали",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1365/thumbs/Koledari_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "18",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Художник: Полона Ловшин</li>\n<li>Поредица: Моето семейство [/series/87/]</li>\n<li>Страници: 28</li>\n<li>Цветни страници</li>\n<li>Дата на издаване: 08.02.2019</li>\n<li>ISBN: 9786191514618</li>\n<li>Размер: 215x215</li>\n<li>Тегло: 0.1 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: За най-малките [/category/120]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 2.3,
+    "title": "Моят дядо",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1318/thumbs/Moyat_dyado_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "19",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Художник: Полона Ловшин</li>\n<li>Поредица: Моето семейство [/series/87/]</li>\n<li>Страници: 28</li>\n<li>Цветни страници</li>\n<li>Дата на издаване: 08.02.2019</li>\n<li>ISBN: 9786191514625</li>\n<li>Размер: 215x215</li>\n<li>Тегло: 0.1 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: За най-малките [/category/120]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 2.3,
+    "title": "Моята баба",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1319/thumbs/Moyata_baba_cov_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "20",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Преводач: Калина Лазарова</li>\n<li>Поредица: Инспектор Гамаш [/series/41/]</li>\n<li>Страници: 448</li>\n<li>Дата на издаване: 13.12.2018</li>\n<li>ISBN: 9786191514601</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.45 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: 16 + години [/category/164] , 18 + години [/category/165] ,\nКриминални романи [/category/209] , Художествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 10.79,
+    "title": "Красива мистерия",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1314/thumbs/Beautiful_mystery_web_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
+  },
+  {
+    "ID": "21",
+    "body": "<p>ИНФОРМАЦИЯ</p>\n<ul>\n<li>Поредица: Художествена литература [/series/49/]</li>\n<li>Страници: 344</li>\n<li>Дата на издаване: 13.12.2018</li>\n<li>ISBN: 9786191514595</li>\n<li>Размер: 130x200</li>\n<li>Тегло: 0.35 кг</li>\n<li>Наличност: Да</li>\n<li>Категории: Български автори [/category/213] , Дамска проза [/category/205] ,\nИсторически романи [/category/229] , Съвременна проза [/category/204] ,\nХудожествена литература [/category/153]</li>\n</ul>\n<p>ДОБАВИ В ЛЮБИМИ</p>\n<p>ПРЕМАХНИ ОТ ЛЮБИМИ</p>\n<p>СПОДЕЛИ</p>",
+    "price": 7.82,
+    "title": "Бал в Мулен Руж",
+    "category": "FOR SLEEP",
+    "mainImage": "https://www.soft-press.com/uploads/products/book1315/thumbs/Mulen_Ruj_web_316x.jpg",
+    "otherImages": "",
+    "inventoryQuantity": "993"
   }
 ];

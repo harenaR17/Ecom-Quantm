@@ -7,14 +7,14 @@ const AllProducts: React.FC = () => {
   
   return (
     <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-3xl font-bold text-emerald-900 mb-8">All Products</h1>
+      <h1 className="text-3xl font-bold text-red-900 mb-8">All Products</h1>
       
       {categories.map((category) => {
         const categoryProducts = products.filter(product => product.category === category);
         
         return (
           <div key={category} className="mb-16">
-            <h2 className="text-2xl font-bold text-emerald-900 mb-6">{category}</h2>
+            <h2 className="text-2xl font-bold text-red-900 mb-6">{category}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {categoryProducts.map((product) => (
                 <Link
@@ -37,8 +37,8 @@ const AllProducts: React.FC = () => {
                         {product.title}
                       </h3>
                       <div className="flex justify-between items-center mt-auto">
-                        <p className="text-emerald-600">Stock: {product.inventoryQuantity}</p>
-                        <p className="text-lg font-bold text-emerald-700">€{product.price}</p>
+                        <p className="text-red-600">Stock: {product.inventoryQuantity}</p>
+                        <p className="text-lg font-bold text-red-700">€{product.price}</p>
                       </div>
                     </div>
                   </div>

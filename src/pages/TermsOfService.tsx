@@ -3,11 +3,11 @@ import React from 'react';
 const TermsOfService: React.FC = () => {
   return (
     <div className="pt-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-bold text-emerald-900 mb-12 text-center">Terms of Service</h1>
+      <h1 className="text-4xl font-bold text-red-900 mb-12 text-center">Terms of Service</h1>
       
-      <div className="prose prose-emerald max-w-none space-y-8">
+      <div className="prose prose-red max-w-none space-y-8">
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold text-emerald-900 mb-4">Overview</h2>
+          <h2 className="text-2xl font-bold text--900 mb-4">Overview</h2>
           <p className="text-gray-600">
             This website is operated by Quant'M CortX. Throughout the site, the terms "we", "us" and "our" refer to Quant'M CortX. Quant'M CortX offers this website, including all information, tools and Services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
           </p>
@@ -20,7 +20,7 @@ const TermsOfService: React.FC = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold text-emerald-900 mb-4">Section 1 - Online Store Terms</h2>
+          <h2 className="text-2xl font-bold text-red-900 mb-4">Section 1 - Online Store Terms</h2>
           <p className="text-gray-600">
             By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
           </p>
@@ -36,7 +36,7 @@ const TermsOfService: React.FC = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold text-emerald-900 mb-4">Section 2 - General Conditions</h2>
+          <h2 className="text-2xl font-bold text-red-900 mb-4">Section 2 - General Conditions</h2>
           <p className="text-gray-600">
             We reserve the right to refuse Service to anyone for any reason at any time.
           </p>
@@ -46,14 +46,14 @@ const TermsOfService: React.FC = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold text-emerald-900 mb-4">Section 3 - Accuracy, Completeness and Timeliness of Information</h2>
+          <h2 className="text-2xl font-bold text-red-900 mb-4">Section 3 - Accuracy, Completeness and Timeliness of Information</h2>
           <p className="text-gray-600">
             We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.
           </p>
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold text-emerald-900 mb-4">Section 4 - Modifications to the Service and Prices</h2>
+          <h2 className="text-2xl font-bold text-red-900 mb-4">Section 4 - Modifications to the Service and Prices</h2>
           <p className="text-gray-600">
             Prices for our products are subject to change without notice.
           </p>
@@ -66,10 +66,10 @@ const TermsOfService: React.FC = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="text-2xl font-bold text-emerald-900 mb-4">Section 20 - Contact Information</h2>
+          <h2 className="text-2xl font-bold text-red-900 mb-4">Section 20 - Contact Information</h2>
           <p className="text-gray-600">
             Questions about the Terms of Service should be sent to us at{' '}
-            <a href="mailto:info@quantmcortx.com" className="text-emerald-600 hover:text-emerald-700">
+            <a href="mailto:info@quantmcortx.com" className="text-red-600 hover:text-red-700">
               info@quantmcortx.com
             </a>.
           </p>
@@ -78,7 +78,7 @@ const TermsOfService: React.FC = () => {
           </p>
           <p className="text-gray-600 mt-2">
             Quant'M CortX<br />
-            <a href="mailto:info@quantmcortx.com" className="text-emerald-600 hover:text-emerald-700">
+            <a href="mailto:info@quantmcortx.com" className="text-red-600 hover:text-red-700">
               info@quantmcortx.com
             </a><br />
             France

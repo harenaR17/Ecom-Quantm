@@ -34,11 +34,11 @@ const ProductPage: React.FC = () => {
     return (
       <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-emerald-900">Product Not Found</h2>
+          <h2 className="text-2xl font-bold text-red-900">Product Not Found</h2>
           <p className="mt-4 text-gray-600">The product you're looking for doesn't exist.</p>
           <button
             onClick={() => navigate('/all-products')}
-            className="mt-6 bg-emerald-500 text-white py-2 px-4 rounded-md hover:bg-emerald-600 transition-colors"
+            className="mt-6 bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600 transition-colors"
           >
             Return to Shop
           </button>
@@ -47,7 +47,16 @@ const ProductPage: React.FC = () => {
     );
   }
 
-  const otherImages = JSON.parse(product.otherImages).map((img: { Image: string }) => img.Image);
+  const otherImages = (() => {
+    if (!product.otherImages?.trim()) return [];
+    try {
+      const parsed = JSON.parse(product.otherImages);
+      if (!Array.isArray(parsed)) return [];
+      return parsed.map((img: { Image: string }) => img.Image);
+    } catch {
+      return [];
+    }
+  })();
 
   const handleAddToCart = () => {
     addItem(product, quantity);
@@ -80,7 +89,7 @@ const ProductPage: React.FC = () => {
 
       const bulletPoint = document.createElement('span');
       bulletPoint.innerHTML = '•';
-      bulletPoint.classList.add('text-emerald-500', 'mr-3', 'flex-shrink-0');
+      bulletPoint.classList.add('text-red-500', 'mr-3', 'flex-shrink-0');
 
       const textContainer = document.createElement('span');
       textContainer.innerHTML = text;
@@ -99,9 +108,9 @@ const ProductPage: React.FC = () => {
     const headings = tempDiv.querySelectorAll('h2, h3, h4, h5, h6');
     headings.forEach((heading, index) => {
       if (heading.tagName === 'H2' && index === 0) {
-        heading.classList.add('text-2xl', 'font-bold', 'text-emerald-900', 'mt-8', 'mb-6');
+        heading.classList.add('text-2xl', 'font-bold', 'text-red-900', 'mt-8', 'mb-6');
       } else {
-        heading.classList.add('text-xl', 'font-bold', 'text-emerald-900', 'mt-6', 'mb-4');
+        heading.classList.add('text-xl', 'font-bold', 'text-red-900', 'mt-6', 'mb-4');
       }
     });
 
@@ -130,9 +139,9 @@ const ProductPage: React.FC = () => {
         </div>
 
         <div>
-          <h1 className="text-3xl font-bold text-emerald-900">{product.title}</h1>
-          <p className="mt-4 text-2xl font-bold text-emerald-700">€{product.price}</p>
-          <p className="mt-2 text-emerald-600">
+          <h1 className="text-3xl font-bold text-red-900">{product.title}</h1>
+          <p className="mt-4 text-2xl font-bold text-red-700">€{product.price}</p>
+          <p className="mt-2 text-red-600">
             {isOutOfStock ? 'Out of stock' : `Stock: ${product.inventoryQuantity} units`}
           </p>
 
@@ -149,23 +158,23 @@ const ProductPage: React.FC = () => {
               type="button"
               onClick={handleAddToCart}
               disabled={isOutOfStock}
-              className="w-full bg-emerald-500 text-white py-3 px-8 rounded-md font-medium hover:bg-emerald-600 transition-colors flex items-center justify-center space-x-2 disabled:bg-emerald-300 disabled:cursor-not-allowed"
+              className="w-full bg-red-500 text-white py-3 px-8 rounded-md font-medium hover:bg-red-600 transition-colors flex items-center justify-center space-x-2 disabled:bg-red-300 disabled:cursor-not-allowed"
             >
               <ShoppingCart size={20} />
               <span>{isOutOfStock ? 'Out of Stock' : 'Add to Cart'}</span>
             </button>
 
             {addedFeedback && (
-              <p className="text-emerald-600 text-sm font-medium">
+              <p className="text-red-600 text-sm font-medium">
                 Added to cart!{' '}
-                <Link to="/cart" className="underline hover:text-emerald-700">
+                <Link to="/cart" className="underline hover:text-red-700">
                   View cart →
                 </Link>
               </p>
             )}
           </div>
 
-          <div className="mt-8 prose prose-emerald max-w-none">
+          <div className="mt-8 prose prose-red max-w-none">
             <div
               className="text-gray-600"
               dangerouslySetInnerHTML={{

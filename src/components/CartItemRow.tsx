@@ -17,7 +17,7 @@ const CartItemRow: React.FC<CartItemRowProps> = ({
   const lineTotal = item.price * item.quantity;
 
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center gap-4 py-6 border-b border-emerald-100">
+    <div className="flex flex-col sm:flex-row sm:items-center gap-4 py-6 border-b border-red-100">
       <img
         src={item.mainImage}
         alt={item.title}
@@ -25,8 +25,8 @@ const CartItemRow: React.FC<CartItemRowProps> = ({
       />
 
       <div className="flex-grow min-w-0">
-        <h3 className="text-lg font-medium text-emerald-900">{item.title}</h3>
-        <p className="text-emerald-700 font-medium mt-1">€{item.price.toFixed(2)} each</p>
+        <h3 className="text-lg font-medium text-red-900">{item.title}</h3>
+        <p className="text-red-700 font-medium mt-1">€{item.price.toFixed(2)} each</p>
       </div>
 
       <div className="flex flex-col sm:items-end gap-3">
@@ -35,7 +35,7 @@ const CartItemRow: React.FC<CartItemRowProps> = ({
           max={item.maxQuantity}
           onChange={(quantity) => onUpdateQuantity(item.productId, quantity)}
         />
-        <p className="text-lg font-bold text-emerald-900">€{lineTotal.toFixed(2)}</p>
+        <p className="text-lg font-bold text-red-900">€{lineTotal.toFixed(2)}</p>
         <button
           type="button"
           onClick={() => onRemove(item.productId)}
